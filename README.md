@@ -27,7 +27,7 @@ authenticity.
 - `route_checker_1201`  
   Binary tool provided by the industrial vendor for result validation.
 
-## Why an Initial Route Is Required
+## An Initial Route Is Required
 
 `Routing` takes an existing routing topology as its starting point. This design
 allows the same initial route to be used for both the baseline and the enhanced
