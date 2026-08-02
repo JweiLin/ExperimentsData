@@ -67,9 +67,6 @@ mkdir -p reproduced_result/testcase1
   --no-memory
 ```
 
-The testcase number is inferred automatically from the final component of
-`--input-dir` (for example, `testcase1`). 
-
 Use `--memory` instead of `--no-memory` to print the process memory statistics.
 
 > **Note:** `--output-dir` may be the same as another directory, but using a
