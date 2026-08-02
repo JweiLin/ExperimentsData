@@ -68,8 +68,7 @@ mkdir -p reproduced_result/testcase1
 ```
 
 The testcase number is inferred automatically from the final component of
-`--input-dir` (for example, `testcase1`). If a directory uses a different naming
-convention, the testcase can be specified explicitly with `--case N`.
+`--input-dir` (for example, `testcase1`). 
 
 Use `--memory` instead of `--no-memory` to print the process memory statistics.
 
