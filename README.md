@@ -1,4 +1,4 @@
-# Experiments Data
+# FPGA Die-Level Routing Reproducibility Package
 
 This repository contains the benchmark datasets, executable, and experimental
 results used in our paper. The result data can be validated using the binary
@@ -69,22 +69,9 @@ mkdir -p reproduced_result/testcase1
 
 Use `--memory` instead of `--no-memory` to print the process memory statistics.
 
-> **Note:** `--output-dir` may be the same as another directory, but using a
-> separate output directory is recommended to avoid overwriting the benchmark
-> data or the published reference results.
-
 ## Validating Results
 
-To validate newly reproduced results, run the vendor-provided checker:
-
-```bash
-./route_checker_1201 \
-  -input_design_dir ./TestCase/testcase1 \
-  -output_route_out_dir ./reproduced_result/testcase1 \
-  -output_tdm_out_dir ./reproduced_result/testcase1
-```
-
-The published results can be checked in the same way. For example:
+The results can be checked in the same way. For example:
 
 ```bash
 ./route_checker_1201 \
