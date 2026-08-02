@@ -22,9 +22,7 @@ authenticity.
   reproducing the experiments with `Routing`.
 
 - `Routing`  
-  A statically linked Linux x86-64 executable of our router. Its testcase-specific
-  parameters are embedded in the binary, so no external configuration file is
-  required.
+  A statically linked Linux x86-64 executable of our router. 
 
 - `route_checker_1201`  
   Binary tool provided by the industrial vendor for result validation.
